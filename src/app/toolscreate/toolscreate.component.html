@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>ToolForm</h2>
+
+<mat-dialog-content [formGroup]="form">
+  <mat-form-field>
+    <input matInput placeholder="date" formControlName="date" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Source" formControlName="Source" />
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="createur" formControlName="createur" />
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button class="mat-raised-button" (click)="close()">Close</button>
+  <button class="mat-raised-button mat-primary" (click)="save()">Save</button>
+</mat-dialog-actions>

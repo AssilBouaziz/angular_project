@@ -1,0 +1,34 @@
+{
+    "members": [
+        {"id":"12345",
+        "cin":"4587",
+        "name":"Assil",
+        "createdDate": "12/12/2015",
+        "cv": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf",
+        "type":"chercheur"},
+
+        {"id":"09876",
+        "cin":"3583",
+        "name":"Ali",
+        "createdDate": "12/12/2016",
+        "cv": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf",
+        "type":"blablabla"},
+
+        {"id":"56789",
+        "cin":"5587",
+        "name":"mohamed",
+        "createdDate": "12/12/2012",
+        "cv": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf",
+        "type":"chercheur"}
+    ],
+    "events": [
+        {"id":"1112233","titre":"Stop","dateDebut":"12/12/2023","dateFin":"12/23/2023","lieu":"Sfax"},
+        {"id":"5552233","titre":"YOOO","dateDebut":"11/12/2023","dateFin":"24/23/2023","lieu":"Sfax"}
+    ],
+    "tools": [
+        {"id": "11123",
+        "createur": "naanaa",
+        "date": "Apr 25, 2023, 12:00:00 AM",
+        "source": "hmmmm"}
+    ]
+}
